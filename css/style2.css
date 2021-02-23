@@ -1,0 +1,43 @@
+.layout {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-height: 100vh;
+    grid-gap: 1.5em;
+    padding: 1em;
+}
+
+p{
+    text-align: justify;
+    margin-top: 0vw;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    animation: float 20s infinite  normal ease-out;
+}
+.main {
+   grid-column-start: 1;
+}
+
+@keyframes float {
+   0% {
+       top:0px;
+   }
+   100% {
+       top: -200vh;
+   }
+}
+
+.main2 {
+    grid-column-start: 2;
+}
+
+.main3 {
+    grid-column-start: 3;
+}
+
+.main4 {
+    grid-column-start: 4;
+}
+
+.main5 {
+    grid-column-start: 5;
+}
