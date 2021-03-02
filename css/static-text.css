@@ -64,7 +64,7 @@ p {
   .main {
     column-count: 1;
     column-gap: 1.5em;
-    max-height: 100vh;
+    max-height: fit-content;
     padding: 1em;
   }
 
@@ -73,7 +73,7 @@ p {
     height: 50pt;
     border-radius: 50%;
     bottom: 10px;
-    position: absolute;
+    position: fixed;
     left: auto;
     z-index: 5;
     opacity: .75;
